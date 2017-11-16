@@ -14,7 +14,7 @@ const Index = () => (
         <p>One of the very few vintage jazz bands in Portugal, 24 Robbers are making themselves a name on the dance-floors, clubs and festivals.</p>
       </div>
 
-      <img src='/static/titanic_colors.jpg' />
+      <img src='/static/porto.jpg' />
 
       <div className='text_block'>
         <p>This international group, that truly appreciate the art of swing, is heavily influenced by Fats Waller, Louis Armstrong, Ella Fitzgerald, Slim & Slam, Duke Ellington, Django Reinhardt and many other greats stars from the 1920s to the 1940s.</p>

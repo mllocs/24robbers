@@ -2,6 +2,15 @@ import { Component } from 'react';
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 
+const PORTO_IMAGES = [
+  { id: '1', caption: '' },
+  { id: '2', caption: '' },
+  { id: '3', caption: '' },
+  { id: '4', caption: '' },
+  { id: '5', caption: '' },
+  { id: '6', caption: '' },
+];
+
 const TITANIC_IMAGES = [
   { id: '1', caption: '' },
   { id: '2', caption: '' },
@@ -36,9 +45,11 @@ class Photos extends Component {
     return (
       <Layout>
         <div className='gallery'>
-          <div className='title'>Concert at Titanic sur Mer (March 2016)</div>
-          <Gallery images={this.mapImages(TITANIC_IMAGES, 'titanic_march_2016')} />
-          <div className='title'>Concert at Salvaterra (June 2016)</div>
+          <div className='title'>Concert at Mercado Bom Sucesso, Porto (November 2017)</div>
+          <Gallery images={this.mapImages(TITANIC_IMAGES, 'porto_november_2017')} />
+          <div className='title'>Concert at Titanic sur Mer, Lisbon (March 2017)</div>
+          <Gallery images={this.mapImages(TITANIC_IMAGES, 'titanic_march_2017')} />
+          <div className='title'>Concert at Salvaterra Festival (June 2017)</div>
           <Gallery images={this.mapImages(SALVATERRA_IMAGES, 'salvaterra')} />
         </div>
 
