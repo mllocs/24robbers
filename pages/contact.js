@@ -11,7 +11,11 @@ const Index = () => (
         </li>
         <li>
           <span>Facebook:</span>
-          <a href="https://www.facebook.com/24RobbersSwingBand/">@24RobbersSwingBand</a>
+          <a href="https://www.facebook.com/24RobbersSwingBand/">facebook.com/24RobbersSwingBand</a>
+        </li>
+        <li>
+          <span>Instagram:</span>
+          <a href="https://www.instagram.com/24robbers.swing/">instagram.com/24Robbers.Swing</a>
         </li>
         <li>
           <span>Telephone:</span>
