@@ -6,8 +6,7 @@
   "scripts": {
     "start": "next",
     "build": "next build",
-    "export": "next export",
-    "publish": "git subtree push --prefix out origin gh-pages"
+    "export": "next export"
   },
   "keywords": [],
   "author": "",
