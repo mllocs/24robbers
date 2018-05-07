@@ -2,6 +2,21 @@ import { Component } from 'react';
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 
+const HARD_ROCK_IMAGES = [
+  { id: '1', caption: '' },
+  { id: '2', caption: '' },
+  { id: '3', caption: '' },
+];
+
+const XMAS_SWING_STATION_IMAGES = [
+  { id: '1', caption: '' },
+  { id: '2', caption: '' },
+  { id: '3', caption: '' },
+  { id: '4', caption: '' },
+  { id: '5', caption: '' },
+  { id: '6', caption: '' },
+];
+
 const PORTO_IMAGES = [
   { id: '1', caption: '' },
   { id: '2', caption: '' },
@@ -45,12 +60,16 @@ class Photos extends Component {
     return (
       <Layout>
         <div className='gallery'>
+          <div className='title'>Concert at Hard Rock Cafe, Lisboa (May 2018)</div>
+          <Gallery images={this.mapImages(HARD_ROCK_IMAGES, 'hard_rock_may_2018')} />
+          <div className='title'>Concert at Teatro Comuna, Lisboa (December 2017)</div>
+          <Gallery images={this.mapImages(XMAS_SWING_STATION_IMAGES, 'xmas_swing_station_december_2017')} />
           <div className='title'>Concert at Mercado Bom Sucesso, Porto (November 2017)</div>
           <Gallery images={this.mapImages(TITANIC_IMAGES, 'porto_november_2017')} />
+          <div className='title'>Concert at Salvaterra Festival (June 2017)</div>
+          <Gallery images={this.mapImages(SALVATERRA_IMAGES, 'salvaterra_june_2017')} />
           <div className='title'>Concert at Titanic sur Mer, Lisbon (March 2017)</div>
           <Gallery images={this.mapImages(TITANIC_IMAGES, 'titanic_march_2017')} />
-          <div className='title'>Concert at Salvaterra Festival (June 2017)</div>
-          <Gallery images={this.mapImages(SALVATERRA_IMAGES, 'salvaterra')} />
         </div>
 
         <style jsx>{`
