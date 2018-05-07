@@ -6,7 +6,7 @@
   "scripts": {
     "start": "next",
     "build": "next build",
-    "export": "next export"
+    "export": "rm -rf ./docs && next export && mv out docs && echo '' > docs/.nojekyll"
   },
   "keywords": [],
   "author": "",
