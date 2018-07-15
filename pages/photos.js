@@ -6,6 +6,9 @@ const HARD_ROCK_IMAGES = [
   { id: '1', caption: '' },
   { id: '2', caption: '' },
   { id: '3', caption: '' },
+  { id: '4', caption: '' },
+  { id: '5', caption: '' },
+  { id: '6', caption: '' },
 ];
 
 const XMAS_SWING_STATION_IMAGES = [

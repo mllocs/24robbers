@@ -134,7 +134,7 @@ const classes = {
     marginBottom: gutter.small,
     overflow: 'hidden',
     width: '320px',
-    height: '180px',
+    height: '210px',
 
     '@media (min-width: 500px)': {
       paddingRight: gutter.large,

@@ -30,6 +30,9 @@ const Header = () => (
       <Link href="/videos">
         <a className='link'>Videos</a>
       </Link>
+      <Link href="/concerts">
+        <a className='link'>Concerts</a>
+      </Link>
       <Link href="/contact">
         <a className='link'>Contact</a>
       </Link>
