@@ -3,13 +3,18 @@ import Layout from '../components/Layout';
 const Index = () => (
   <Layout>
     <div className='videos'>
+
       <div className='video_item'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VKw_Ja4HSCs" frameborder="0" allowfullscreen></iframe>
-        <div className='video_title'>L.O.V.E, May 2018 </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QqYubIb3O1s" frameborder="0" allowfullscreen></iframe>
+        <div className='video_title'>Bernie's Tune at Little Bit Apple, December 2018</div>
       </div>
       <div className='video_item'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/J4wzGvUBn5U" frameborder="0" allowfullscreen></iframe>
-        <div className='video_title'>Black Coffee at Little Big Apple, June 2018 </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fZoAVR9a1L8" frameborder="0" allowfullscreen></iframe>
+        <div className='video_title'>Black Coffee at Little Big Apple, December 2018</div>
+      </div>
+      <div className='video_item'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VKw_Ja4HSCs" frameborder="0" allowfullscreen></iframe>
+        <div className='video_title'>L.O.V.E, May 2018</div>
       </div>
       <div className='video_item'>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/6IWnDEApv8A" frameborder="0" allowfullscreen></iframe>
