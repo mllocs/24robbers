@@ -2,6 +2,15 @@ import { Component } from 'react';
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 
+const BRACO_PRATA_IMAGES = [
+  { id: '1', caption: '' },
+  { id: '2', caption: '' },
+  { id: '3', caption: '' },
+  { id: '4', caption: '' },
+  { id: '5', caption: '' },
+  { id: '6', caption: '' },
+];
+
 const HARD_ROCK_IMAGES = [
   { id: '1', caption: '' },
   { id: '2', caption: '' },
@@ -63,6 +72,8 @@ class Photos extends Component {
     return (
       <Layout>
         <div className='gallery'>
+          <div className='title'>Concert at Fabrica Braço de Prata, Lisboa (Nov 2018)</div>
+          <Gallery images={this.mapImages(BRACO_PRATA_IMAGES, 'braco_prata_november_2018')} />
           <div className='title'>Concert at Hard Rock Cafe, Lisboa (May 2018)</div>
           <Gallery images={this.mapImages(HARD_ROCK_IMAGES, 'hard_rock_may_2018')} />
           <div className='title'>Concert at Teatro Comuna, Lisboa (December 2017)</div>

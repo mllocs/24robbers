@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/concerts', function() {
+            var comp = module.exports=webpackJsonp([8],{203:function(e,t,a){e.exports=a(204)},204:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var s=a(17),n=l(s),r=a(0),c=l(r),o=a(36),d=l(o),i=function(){return c.default.createElement(d.default,null,c.default.createElement("div",{className:"jsx-3199046083 section"},c.default.createElement("h2",{className:"jsx-3199046083"},"Upcoming concerts"),c.default.createElement("div",{className:"jsx-3199046083"},c.default.createElement("iframe",{src:"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F24RobbersSwingBand%2F&tabs=events&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=643772419306962",width:"500",height:"800",style:{border:"none",overflow:"hidden"},scrolling:"no",frameborder:"0",allowTransparency:"true",allow:"encrypted-media",className:"jsx-3199046083"}))),c.default.createElement(n.default,{styleId:"3199046083",css:[".section.jsx-3199046083{text-align:center;}","h2.jsx-3199046083{font-size:32px;}"]}))};t.default=i}},[203]);
+            return { page: comp.default }
+          })
+        

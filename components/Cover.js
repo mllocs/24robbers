@@ -40,7 +40,7 @@ const Cover = (props) => (
       }
 
       .cover_image {
-        background: url(static/titanic_bw.jpg) no-repeat center center fixed;
+        background: url(static/braco_bw.jpg) no-repeat center center fixed;
         background-color: black;
         background-size: cover;
         width: 100%;
