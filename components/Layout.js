@@ -20,6 +20,7 @@ const Layout = (props) => (
         margin: 0;
         padding: 0;
         font-family: Karla, Helvetica;
+        background-color: #FDE8DE;
       }
 
       .content {

@@ -21,9 +21,6 @@ const Header = () => (
       </a>
     </Link>
     <div className='links'>
-      <Link href="https://www.facebook.com/pg/24RobbersSwingBand/">
-        <a target="_blank" className='link'>Facebook</a>
-      </Link>
       <Link href="/photos">
         <a className='link'>Photos</a>
       </Link>
@@ -32,6 +29,9 @@ const Header = () => (
       </Link>
       <Link href="/concerts">
         <a className='link'>Concerts</a>
+      </Link>
+      <Link href="https://www.facebook.com/pg/24RobbersSwingBand/">
+        <a target="_blank" className='link'>Facebook</a>
       </Link>
       <Link href="/contact">
         <a className='link'>Contact</a>

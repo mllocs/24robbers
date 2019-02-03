@@ -18,6 +18,10 @@ const Index = () => (
           <a href="https://www.instagram.com/24robbers.swing/">instagram.com/24Robbers.Swing</a>
         </li>
         <li>
+          <span>YouTube:</span>
+          <a href="https://www.youtube.com/channel/UCulICgQsJpZ3hbwx1kSkeTg/featured">youtube.com/24robbersswingband</a>
+        </li>
+        <li>
           <span>Telephone:</span>
           +351 964669477
         </li>

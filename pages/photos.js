@@ -72,6 +72,7 @@ class Photos extends Component {
     return (
       <Layout>
         <div className='gallery'>
+          <h2>Photos</h2>
           <div className='title'>Concert at Fabrica Braço de Prata, Lisboa (Nov 2018)</div>
           <Gallery images={this.mapImages(BRACO_PRATA_IMAGES, 'braco_prata_november_2018')} />
           <div className='title'>Concert at Hard Rock Cafe, Lisboa (May 2018)</div>
@@ -87,6 +88,16 @@ class Photos extends Component {
         </div>
 
         <style jsx>{`
+          .gallery {
+            width: 968px;
+            margin: 40px auto;
+            text-align: center;
+          }
+
+          h2 {
+            font-size: 32px;
+          }
+
           .title {
             text-transform: uppercase;
             font-size: 20px;
@@ -94,10 +105,6 @@ class Photos extends Component {
             margin-top: 40px;
           }
 
-          .gallery {
-            width: 968px;
-            margin: 40px auto;
-          }
         `}</style>
       </Layout>
     );
